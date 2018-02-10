@@ -13,7 +13,7 @@ public class HelloController {
     @GetMapping("/hello")
     public String handle(Model model) {
         model.addAttribute("message", "Hello World!");
-        return "index";
+        return "welcome";
     }
 
 }
