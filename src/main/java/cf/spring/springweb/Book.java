@@ -1,9 +1,13 @@
 package cf.spring.springweb;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  * @author vgrigoriev - 2/1/2018
  * domain object
  */
+
+@XmlRootElement(name = "Book")
 public class Book {
 
     private int id;
